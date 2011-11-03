@@ -1,3 +1,9 @@
+# revision 24203
+# category Package
+# catalog-ctan /macros/latex/contrib/changes
+# catalog-date 2011-04-28 12:53:22 +0200
+# catalog-license lppl1.3
+# catalog-version 0.5.4
 Name:		texlive-changes
 Version:	0.5.4
 Release:	1
@@ -42,6 +48,7 @@ the changes.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/scripts/changes/delcmdchanges.bash
 %{_texmfdistdir}/tex/latex/changes/changes.sty
 %doc %{_texmfdistdir}/doc/latex/changes/README
 %doc %{_texmfdistdir}/doc/latex/changes/changes.english.full.pdf
@@ -58,6 +65,7 @@ the changes.
 %doc %{_texmfdistdir}/source/latex/changes/changes.drv
 %doc %{_texmfdistdir}/source/latex/changes/changes.dtx
 %doc %{_texmfdistdir}/source/latex/changes/changes.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -67,4 +75,6 @@ the changes.
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+cp -fpar scripts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
