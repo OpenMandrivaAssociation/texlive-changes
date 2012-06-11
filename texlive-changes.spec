@@ -1,11 +1,11 @@
-# revision 25085
+# revision 26165
 # category Package
 # catalog-ctan /macros/latex/contrib/changes
-# catalog-date 2012-01-11 15:38:21 +0100
+# catalog-date 2012-04-26 11:05:40 +0200
 # catalog-license lppl1.3
-# catalog-version 0.6.0
+# catalog-version 1.0.0
 Name:		texlive-changes
-Version:	0.6.0
+Version:	1.0.0
 Release:	1
 Summary:	Manual change markup
 Group:		Publishing
