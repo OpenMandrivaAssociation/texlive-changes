@@ -192,3 +192,26 @@ the changes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar scripts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0.0-1
++ Revision: 804510
+- Update to latest release.
+
+* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.6.0-1
++ Revision: 762535
+- Update to latest upstream package
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.5.4-2
++ Revision: 750100
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.5.4-1
++ Revision: 718032
+- texlive-changes
+- texlive-changes
+- texlive-changes
+- texlive-changes
+- texlive-changes
+
