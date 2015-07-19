@@ -6,7 +6,7 @@
 # catalog-version 2.0.2
 Name:		texlive-changes
 Version:	2.0.2
-Release:	8
+Release:	9
 Summary:	Manual change markup
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/changes
