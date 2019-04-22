@@ -1,6 +1,6 @@
 Name:		texlive-changes
-Version:	2.0.4
-Release:	2
+Version:	3.1.2
+Release:	1
 Summary:	Manual change markup
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/changes
